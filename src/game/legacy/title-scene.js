@@ -33,8 +33,8 @@ import {
 } from "three";
 import { loadCar as O } from "./models3d.js";
 import { i as k, n as A, r as j, t as M } from "./quality.js";
-var N = `/__l5e/assets-v1/2fae6cd7-c598-434c-ac60-36a29622b4c9/title-sky-DeKgOAgj.jpg`,
-  P = `/__l5e/assets-v1/93c569e8-d292-42de-bc12-10abcf7312a2/title-dirt-ebII1ys6.jpg`,
+var N = `/game-assets/title-sky-DeKgOAgj.jpg`,
+  P = `/game-assets/title-dirt-ebII1ys6.jpg`,
   F = (e, t, n) => new E(e, t, n),
   I = [
     { key: `revuelto`, x: 0, z: 0, yaw: Math.PI + 0.35 },

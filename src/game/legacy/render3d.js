@@ -77,7 +77,7 @@ import {
 } from "./world.js";
 import { GLTFLoader as WBLoader } from "three/examples/jsm/loaders/GLTFLoader.js";
 // Bridge over water built from the player's bridge model (flattened + aligned to the road).
-var WB_URL = `/__l5e/assets-v1/4e32c0a7-2471-4f2c-a8b2-ffcc16ad531e/water-bridge.glb`,
+var WB_URL = `/game-assets/water-bridge.glb`,
   WB_START = 3650,
   WB_LEN = 663,
   WB_LOOP = 5800,
@@ -214,8 +214,8 @@ function Ze(e, t) {
 function N(e, t, n) {
   return e < t ? t : e > n ? n : e;
 }
-var Qe = `/__l5e/assets-v1/960cf388-ccbe-42b0-b8ea-fda515c686fd/highway-sky-BGIxHKeS.jpg`,
-  $e = `/__l5e/assets-v1/8ed82cd4-91ec-4d17-8398-9499e193f7f7/highway-asphalt-CTjUyYqg.jpg`;
+var Qe = `/game-assets/highway-sky-BGIxHKeS.jpg`,
+  $e = `/game-assets/highway-asphalt-CTjUyYqg.jpg`;
 async function et(e) {
   let t = new ue(),
     [n, r] = await Promise.all([t.loadAsync(Qe), t.loadAsync($e)]);
@@ -719,7 +719,7 @@ var kt = {
     version: 1,
     asset_id: `b8a269cc-6e6e-4ff1-9b0e-d4985d2c2ee0`,
     project_id: `3faf2f0c-3a05-4196-b312-8cecb1673b3a`,
-    url: `/__l5e/assets-v1/d9b9c771-f09b-4cee-a114-4a3698ab672c/revuelto-infotainment.webp`,
+    url: `/game-assets/revuelto-infotainment.webp`,
     r2_key: `a/v1/3faf2f0c-3a05-4196-b312-8cecb1673b3a/b8a269cc-6e6e-4ff1-9b0e-d4985d2c2ee0/revuelto-infotainment.webp`,
     original_filename: `revuelto-infotainment.webp`,
     size: 75732,
